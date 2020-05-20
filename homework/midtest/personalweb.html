@@ -4,10 +4,11 @@
 <meta charset="utf-8"><!--設定網頁編碼-->
 <meta name="viewport" content="width=device-width, initial-scale=1"><!--隨裝置改變解析度-->
 <meta name="author" content="張佑豪 Yu-Hao Chang"><!--作者-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--外部CSS:讓功能欄About旁有下拉鍵的倒三角形-->
 <style>
-  /*CSS*/
-  * {
+  /*內部CSS*/
+  * /*選擇所有元素*/
+  {
   box-sizing: border-box;
 }
 body {
@@ -170,7 +171,7 @@ footer {
 <p style="background-color:#818181;"><span style="font-size:30px;cursor:pointer;color: white;padding: 8px 16px;" onclick="openNav()">&#9776; </span>
 
 <span class="navbar">
-  <a href="https://nohano1l.github.io/wp108b/homework/midtest/personalweb.html">Home</a>
+  <a href="https://nohano1l.github.io/wp108b/homework/midtest/introduction.html">Home</a>
   <span class="dropdown">
   <button class="dropbtn" onclick="myFunction()">About
     <i class="fa fa-caret-down"></i>
@@ -205,7 +206,7 @@ footer {
 
 <footer><p>授權:CC-BY-SA; 作者:張佑豪</p></footer>
 
-<script>
+<script>//Javascript
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
