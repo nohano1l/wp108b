@@ -8,4 +8,5 @@ function ma(b){
     }
     return a;
 }
-var 
+var a=ma(process.argv.slice(2));
+console.log(a);
