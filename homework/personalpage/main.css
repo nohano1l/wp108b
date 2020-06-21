@@ -1,0 +1,26 @@
+body {
+    background-image: url('https://www.crazyppt.com/wp-content/uploads/2018/10/1-1PH1120331.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  #myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Style all elements with the class name "city" */
+  .gear {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+  } 
+  footer {
+    background-color: #76ffff;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
