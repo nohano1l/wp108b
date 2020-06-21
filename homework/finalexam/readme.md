@@ -10,6 +10,8 @@
 ## 作品參考來源:
 **作品中所參考的資料，及我對其理解及改篇的程度。**
 1. 我的版面配置是參考老師POS的版面設置加以修改以及W3school的按照片返回首頁。
-[陳忠誠老師的POS系統](https://ccccourse.github.io/wp/code/08-app2/pos/06-report/index.html?fbclid=IwAR1cPMivi8yqvYkUZdknw0XU2qI5YuvWNOC9wt_Jff6BLaIEBLMuG2Qyb)
+  [陳忠誠老師的POS系統](https://ccccourse.github.io/wp/code/08-app2/pos/06-report/index.html?fbclid=IwAR1cPMivi8yqvYkUZdknw0XU2qI5YuvWNOC9wt_Jff6BLaIEBLMuG2Qyb)
 2. 其中我對其中的html,css是有一小部分不太理解。js是有一部分不太理解，我看到不懂的地方也有上網查後理解也有自己打過。
-3. 之後會把網頁用得更完整，目前想增加留言系統，以及需要登入才能改變一些設定等等......
+3. POS系統是參考老師的範例之後，我讀懂了，自己又打了一次，小幅度的改了側欄，以及功能欄。
+4. 其餘跑馬燈、登入、註冊都是參考W3school之後自己打出來的。
+5. 之後會把網頁用得更完整，目前想增加留言系統，以及需要登入才能改變一些設定等等......

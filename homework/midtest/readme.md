@@ -8,7 +8,7 @@
 ## 作品參考來源:
 **作品中所參考的資料，及我對其理解及改篇的程度。**
 1. 我是參考W3school的側欄以及功能欄以及以前我的個人網頁加以修改。
-[W3school的折疊側欄](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp)
-[W3school的頂部導航欄](https://www.w3schools.com/howto/howto_js_topnav.asp)
-[我的個人網頁](https://nohano1l.github.io/wp108b/homework/personalpage/aboutme.html)
+  [W3school的折疊側欄](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp)
+  [W3school的頂部導航欄](https://www.w3schools.com/howto/howto_js_topnav.asp)
+  [我的個人網頁](https://nohano1l.github.io/wp108b/homework/personalpage/aboutme.html)
 2. 其中我對其中的html,css是全部理解。
