@@ -16,7 +16,7 @@ const POS = {
         <select id="items" onchange="POS.calcPrice()"></select>
         <select id="addons" onchange="POS.calcPrice()"></select>
       </td>
-      <td><input id="price" type="number" value="0"></td>
+      <td><input id="price" type="numder" value="0"></td>
       <td>
         <input id="quantity" type="number" value="1">
         <button onclick="POS.addItem()">新增</button>
@@ -38,6 +38,7 @@ const POS = {
     <button id="goShop" onclick="POS.goShop()">回主選單</button>
     <button id="newOrder" onclick="POS.start()" disabled="disabled">新增下一筆</button>
     <br/><br/>
+    <p align="center"><img id="image" src="3.jpg"  style="width:435px;height:290px;"></p>
   </div>
   </div>
   `
@@ -108,6 +109,9 @@ const POS = {
   }
   
   POS.calcPrice = function () {
+    var x = document.getElementById("items").value;
+    if(x=="水餃:40"){document.getElementById("image").src = "3.jpg";}
+    if(x=="魷魚羹麵:40"){document.getElementById("image").src = "4.jpg";}
     let [item, itemPrice] = SN.id('items').value.split(':')
     let [addon, addonPrice] = SN.id('addons').value.split(':')
     let price = parseInt(itemPrice) + parseInt(addonPrice)
